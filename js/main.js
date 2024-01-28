@@ -113,7 +113,7 @@ document.getElementById("btnFirstn").onclick = function () {
     if (nguyenTo > 0) {
         result = "Số nguyên tố đầu tiên là " + nguyenTo;
     } else {
-        result = -1;
+        result = "Số nguyên tố đầu tiên là -1";
     }
     
     document.getElementById("Ketqua").innerHTML = result;
